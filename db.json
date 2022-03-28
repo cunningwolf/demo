@@ -1,8 +1,8 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "quotes": [
+    { "id": 1, "ticker":"AAPL", "value": 100.00 },
+    { "id": 2, "ticker":"MSFT", "value": 350.22 },
+    { "id": 3, "ticker":"IBM", "value": 125.00 }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
