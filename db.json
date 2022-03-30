@@ -1,7 +1,7 @@
 {
   "quotes": [
     {
-      "symbol": "GE",
+      "id": "GE",
       "datatype": "equity",
       "entitlement": "DL",
       "delaymin": 15,
@@ -9,7 +9,7 @@
       "exchange": "NYE",
       "longname": "GENERAL ELECTRIC",
       "shortname": "GE",
-      "pricedata": {
+      "price": {
         "last": 15.3499,
         "change": -0.0601,
         "changepercent": -0.390006,
@@ -28,7 +28,7 @@
       }
     },
     {
-      "symbol": "AAPL",
+      "id": "AAPL",
       "datatype": "equity",
       "entitlement": "DL",
       "delaymin": 15,
@@ -36,7 +36,7 @@
       "exchange": "NYE",
       "longname": "APPLE INC",
       "shortname": "AP",
-      "pricedata": {
+      "price": {
         "last": 10.3499,
         "change": -0.0601,
         "changepercent": -0.390006,
