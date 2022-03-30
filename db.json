@@ -1,14 +1,58 @@
 {
   "quotes": [
-    { "id": 1, "ticker":"AAPL", "value": 100.00 },
-    { "id": 2, "ticker":"MSFT", "value": 350.22 },
-    { "id": 3, "ticker":"IBM", "value": 125.00 }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    {
+      "symbol": "GE",
+      "datatype": "equity",
+      "entitlement": "DL",
+      "delaymin": 15,
+      "datetime": "2022-03-29T15:03:40-04:00",
+      "exchange": "NYE",
+      "longname": "GENERAL ELECTRIC",
+      "shortname": "GE",
+      "pricedata": {
+        "last": 15.3499,
+        "change": -0.0601,
+        "changepercent": -0.390006,
+        "tick": 1,
+        "open": 15.46,
+        "high": 15.55,
+        "low": 15.05,
+        "prevclose": 15.41,
+        "bid": 15.34,
+        "ask": 15.35,
+        "bidsize": 20100,
+        "asksize": 19100,
+        "tradevolume": 149741,
+        "sharevolume": 68300391,
+        "lasttradedatetime": "2010-06-08T15:03:40-04:00"
+      }
+    },
+    {
+      "symbol": "AAPL",
+      "datatype": "equity",
+      "entitlement": "DL",
+      "delaymin": 15,
+      "datetime": "2022-03-29T15:03:40-04:00",
+      "exchange": "NYE",
+      "longname": "APPLE INC",
+      "shortname": "AP",
+      "pricedata": {
+        "last": 10.3499,
+        "change": -0.0601,
+        "changepercent": -0.390006,
+        "tick": 1,
+        "open": 178.96,
+        "high": 179.01,
+        "low": 176.34,
+        "prevclose": 89.72,
+        "bid": 177.71,
+        "ask": 177.8,
+        "bidsize": 71084,
+        "asksize": 22402,
+        "tradevolume": 41244,
+        "sharevolume": 68300391,
+        "lasttradedatetime": "2010-06-08T15:03:40-04:00"
+      }
+    }
+  ]
 }
